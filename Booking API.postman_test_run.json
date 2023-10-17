@@ -23,7 +23,7 @@
 			},
 			"tests": {
 				"verify Status code is 200": true,
-				"verify Body matches string": false,
+				"verify Body matches string": true,
 				"verify Content-Type is present": true,
 				"verify Response time is less than 200ms": true,
 				"verify first name": true,
@@ -35,8 +35,8 @@
 					"fail": 0
 				},
 				"verify Body matches string": {
-					"pass": 0,
-					"fail": 3
+					"pass": 3,
+					"fail": 0
 				},
 				"verify Content-Type is present": {
 					"pass": 3,
