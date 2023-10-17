@@ -1,27 +1,27 @@
 The Restful Booker API allows you to perform operations related to booking hotels. 
 
-1.Import the Restful Booker Collection:
+Import the Restful Booker Collection:
 
 If you don't have the Restful Booker Collection in Postman, you can find it in the Postman API Network or online resources. Import it into your Postman workspace. 
 
-2.Set the Environment:
+Set the Environment:
 
 Make sure you have an environment set up in Postman for Restful Booker. This environment should contain variables for the base URL of the Restful Booker API. You can create an environment by clicking on the gear icon in the upper right corner of the Postman window.
 
-3.Create a New Booking:
+1)Create a New Booking:
 
 Open the "Create Booking" request from the Restful Booker Collection.
 
-4.Set Request Method and URL:
+Set Request Method and URL:
 
 1.In the request details, ensure that the HTTP method is set to POST.
 2.Set the URL to {{base_url}}/booking.
 
-5.Send the Request:
+Send the Request:
 
 Click the "Send" button to make the POST request to create a new booking.
 
-6.View Response:
+View Response:
 
 Postman will display the response from the API, which will include the booking ID and other details of the newly created booking.
 
