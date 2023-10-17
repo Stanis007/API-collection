@@ -5,7 +5,7 @@
 	"collection_id": "30383033-033fc07e-70be-43b4-9338-41375ad0b0ce",
 	"folder_id": 0,
 	"environment_id": "30383033-eb27a651-c650-481b-a27b-a9ace451c074",
-	"totalPass": 18,
+	"totalPass": 15,
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
@@ -23,7 +23,7 @@
 			},
 			"tests": {
 				"verify Status code is 200": true,
-				"verify Body matches string": true,
+				"verify Body matches string": false,
 				"verify Content-Type is present": true,
 				"verify Response time is less than 200ms": true,
 				"verify first name": true,
@@ -35,8 +35,8 @@
 					"fail": 0
 				},
 				"verify Body matches string": {
-					"pass": 3,
-					"fail": 0
+					"pass": 0,
+					"fail": 3
 				},
 				"verify Content-Type is present": {
 					"pass": 3,
